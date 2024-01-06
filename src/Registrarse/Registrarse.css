@@ -1,0 +1,74 @@
+.RegistrarseContainer {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    margin-right: 320px; 
+}  
+.RegistrarseContainer h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.RegistrarseContainer h2:hover{
+    color: brown;
+}  
+.RegistrarseContainer p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+  
+.RegistrarseContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.RegistrarseContainer input[type='nombre'],
+.RegistrarseContainer input[type='apellido'],
+.RegistrarseContainer input[type='telefono'],
+.RegistrarseContainer input[type='email'],
+.RegistrarseContainer input[type='password']
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.RegistrarseContainer button {
+    padding: 10px 20px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    margin-bottom: 1px; 
+    border-radius: 10px;
+    background-color: #1ed760;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}  
+.RegistrarseContainer button:hover {
+    background-color: #555;
+}
+.RegistrarseContainer .GoogleButton,
+.RegistrarseContainer .FacebookButton {
+  padding: 15px 20px; 
+  width: 100%; 
+  box-sizing: border-box; 
+  margin-bottom: 15px; 
+  border-radius: 10px; 
+  background-color: transparent; 
+  color: white; 
+  cursor: pointer; 
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.iconSpacing {
+  margin-right: 25px;
+}
+.RegistrarseContainer .navigation-link{
+  color: white;
+  font-weight: bold;
+}

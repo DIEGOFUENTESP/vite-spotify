@@ -1,0 +1,29 @@
+.contactContainer {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-left: 380px;
+}  
+.contactContainer h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+  .contactContainer h2:hover{
+    color: brown;
+}  
+.contactContainer p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}  
+.contactContainer ul {
+    list-style-type: none;
+    padding: 0;
+}  
+.contactContainer li {
+    margin-bottom: 8px;
+}
